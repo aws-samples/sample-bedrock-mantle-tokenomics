@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# CDK
+cdk.out/
+cdk.out.*/
+.cdk.staging/
+cdk-outputs*.json
+
+# Node / React
+node_modules/
+build/
+dist/
+.env.local
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Secrets / local config
+.env
+*.pem
+aws-credentials*
+# Ephemeral auth-token scratch files (JWTs used for local testing — never commit)
+*.tok
+*.tmp
+.at.tmp
+
+# Security scan output & findings (never commit scan results/reports)
+.protoshield/
+.security-agent/
+.secscan*/
+*.protoshield.*
+security-scan*/
+scan-results*/
+*findings*.json
+*findings*.md
+SECURITY_AGENT_FINDINGS*
+SECURITY_SCAN_FINDINGS*
+
+# Local-only notes / scratch (never committed)
+.notes/

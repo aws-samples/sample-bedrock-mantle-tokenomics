@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tokenomics Portal</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Runtime config written into the hosting bucket by CDK from stack outputs.
+         Loaded (classic script, runs before the module below) so window.__ENV__ is set
+         before the app boots. Absent during local dev -> app falls back to Vite env vars. -->
+    <script>window.__ENV__ = window.__ENV__ || {};</script>
+    <script src="/env.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
