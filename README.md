@@ -8,6 +8,10 @@ single gateway endpoint using one **virtual model name**. Tokenomics attributes 
 the individual developer, enforces a daily budget, and automatically downgrades the served model
 through configured tiers as the budget is consumed — with a hard stop at 100%.
 
+## Architecture
+
+![Tokenomics architecture](./Tokenomics.drawio.png)
+
 ## How it works
 
 ```
